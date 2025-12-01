@@ -1,5 +1,34 @@
 # Presight Frontend Exercise
 
+## Getting Started
+
+### Prerequisites
+- Node.js (version 18 or higher)
+
+### Installation
+```bash
+npm install
+```
+
+### Running the App
+```bash
+npm run start
+```
+This command starts both the client and server in parallel.
+
+### Running Tests
+To run tests for the client:
+```bash
+cd client
+npm run test
+```
+
+To run tests for the server:
+```bash
+cd server
+npm run test
+```
+
 #### Create a react application and nodes web server for the following use cases
 
 1. Create a mock api to serve paginated list of information with filtering and search capabilities
