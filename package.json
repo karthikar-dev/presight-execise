@@ -9,9 +9,11 @@
     "server"
   ],
   "scripts": {
-    "start": "lerna run start"
+    "start": "lerna run start --parallel",
+    "start:server": "lerna run start --scope=presight-server",
+    "start:client": "lerna run start --scope=presight-client"
   },
   "devDependencies": {
-    "lerna": "~8.2.1"
+    "lerna": "^9.0.1"
   }
 }
